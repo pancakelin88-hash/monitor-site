@@ -95,6 +95,15 @@ function App() {
   const [isLoading, setIsLoading] = useState(isSupabaseConfigured)
   const [lastUpdated, setLastUpdated] = useState(new Date())
 
+  useEffect(() => {
+    const updatePointer = (event: PointerEvent) => {
+      document.documentElement.style.setProperty('--pointer-x', `${event.clientX}px`)
+      document.documentElement.style.setProperty('--pointer-y', `${event.clientY}px`)
+    }
+    window.addEventListener('pointermove', updatePointer, { passive: true })
+    return () => window.removeEventListener('pointermove', updatePointer)
+  }, [])
+
   async function loadAll() {
     if (!supabase) return
     setIsLoading(true)
@@ -227,6 +236,7 @@ function App() {
 
   return (
     <div className="app-shell">
+      <div className="ambient-pointer" aria-hidden="true" />
       <header className="topbar">
         <button className="brand" type="button" onClick={() => setPage('overview')}>
           <span className="brand-mark"><Activity size={18} /></span>
@@ -254,9 +264,17 @@ function App() {
         </div>
       </header>
 
+      <div className="signal-strip" aria-label="平台连接状态">
+        <span><i /> Supabase Realtime</span>
+        <span><i /> GitHub Source</span>
+        <span><i /> Vercel Edge</span>
+        <span className="signal-time">AP-NORTHEAST · {lastUpdated.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}</span>
+      </div>
+
       {page === 'overview' && (
         <main>
           <section className="hero-monitor">
+            <div className="hero-beam" aria-hidden="true"><i /><i /><i /></div>
             <div className={`health-orb ${overallHealthy ? 'healthy' : 'warning'}`} aria-hidden="true">
               <span /><i /><b />
             </div>
