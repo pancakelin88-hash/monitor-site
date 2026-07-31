@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "effects": [
+    {"id":"vfx-lightfall","label":"LIGHTFALL / DESCENT","duration":1.1,"fps":60,"blend":"screen","tint":"#70f6ff","fallback":"css:lightfall"},
+    {"id":"vfx-void-burst","label":"VOID BURST / IMPACT","duration":0.48,"fps":60,"blend":"add","tint":"#c18bff","fallback":"canvas:ring"},
+    {"id":"vfx-aurora-trail","label":"AURORA TRAIL / BOOST","duration":0.9,"fps":60,"blend":"add","tint":"#7dffcf","fallback":"canvas:ship-trail"},
+    {"id":"vfx-chrome-hit","label":"CHROME HIT / REFRACTION","duration":0.32,"fps":60,"blend":"screen","tint":"#d7fbff","fallback":"canvas:burst"}
+  ]
+}

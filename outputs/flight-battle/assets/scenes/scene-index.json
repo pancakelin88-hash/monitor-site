@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "scenes": [
+    {
+      "id": "scene-nebula-01",
+      "label": "NEBULA / DEEP ORBIT",
+      "background": "vangogh-motion-bg-v1",
+      "layers": ["stars.far", "nebula.parallax", "flight-deck.grid", "vfx.lightfall"],
+      "palette": ["#07152c", "#4e4dce", "#70f6ff"],
+      "motion": "slow-parallax",
+      "fallback": "procedural:nebula"
+    },
+    {
+      "id": "scene-eclipse-02",
+      "label": "ECLIPSE / HARD SHADOW",
+      "background": "procedural:eclipse",
+      "layers": ["stars.far", "eclipse.ring", "flight-deck.grid", "vfx.void-burst"],
+      "palette": ["#05070d", "#aa3c84", "#ff5d91"],
+      "motion": "high-contrast",
+      "fallback": "procedural:eclipse"
+    },
+    {
+      "id": "scene-aurora-03",
+      "label": "AURORA / POLAR LIGHT",
+      "background": "procedural:aurora",
+      "layers": ["stars.far", "aurora.ribbon", "flight-deck.grid", "vfx.particles"],
+      "palette": ["#061d2c", "#46d6b4", "#8c7cff"],
+      "motion": "soft-pulse",
+      "fallback": "procedural:aurora"
+    }
+  ]
+}

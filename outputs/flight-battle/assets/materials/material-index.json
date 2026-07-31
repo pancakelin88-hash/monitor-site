@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "materials": [
+    {
+      "id": "mat-aether-pbr",
+      "label": "AETHER / BLUE PBR",
+      "shader": "MeshStandardMaterial",
+      "baseColor": "#163c75",
+      "metalness": 0.88,
+      "roughness": 0.2,
+      "emissive": "#06172e",
+      "fallback": "procedural:aether"
+    },
+    {
+      "id": "mat-prism-core",
+      "label": "PRISM / WEAPON BLOOM",
+      "shader": "additive-particle",
+      "baseColor": "#ffd166",
+      "metalness": 0.62,
+      "roughness": 0.16,
+      "emissive": "#ff9f1c",
+      "fallback": "procedural:prism"
+    },
+    {
+      "id": "mat-void-lens",
+      "label": "VOID / ABSORPTION",
+      "shader": "MeshPhysicalMaterial",
+      "baseColor": "#6f48c8",
+      "metalness": 0.72,
+      "roughness": 0.12,
+      "emissive": "#38156c",
+      "fallback": "procedural:void"
+    }
+  ]
+}

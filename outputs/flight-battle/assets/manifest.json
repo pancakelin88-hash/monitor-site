@@ -1,6 +1,6 @@
 {
   "brand": "LinYH",
-  "version": "8.0",
+  "version": "8.1",
   "backgrounds": [
     {"id":"vangogh-motion-bg-v1","file":"vangogh-motion-bg-v1.webp","type":"cinematic-space","motion":"slow-parallax"}
   ],
@@ -25,5 +25,96 @@
     "loader": "GLTFLoader",
     "material": "PBR",
     "sources": ["Khronos glTF Sample Assets", "Poly Haven CC0"]
-  }
+  },
+  "assetIndexVersion": "1.0.0",
+  "assetRoot": ".",
+  "assets": [
+    {
+      "id": "vangogh-motion-bg-v1",
+      "version": "1.0.0",
+      "type": "background",
+      "file": "vangogh-motion-bg-v1.webp",
+      "license": "LinYH original / local generated",
+      "source": "local-generated",
+      "sha256": "9d0f07343cca53f46b4bc567eaf5ea90b23733ee242b608508f56405801b2e83",
+      "preview": "vangogh-motion-bg-v1.webp",
+      "loadGroup": "backgrounds.core",
+      "fallback": "procedural:starfield",
+      "mobileVariant": null
+    },
+    {
+      "id": "ships-atlas-v1",
+      "version": "1.0.0",
+      "type": "sprite-atlas",
+      "file": "ships-atlas-v1.webp",
+      "license": "LinYH original / local generated",
+      "source": "local-generated",
+      "sha256": "07f827a0a4eff9f9e6395ec8002292d2cf671e801f45b3f370d3658f224acf54",
+      "preview": "ships-atlas-v1.webp",
+      "loadGroup": "sprites.ships",
+      "fallback": "procedural:ship-silhouette",
+      "mobileVariant": null
+    },
+    {
+      "id": "scene-index-v1",
+      "version": "1.0.0",
+      "type": "scene-manifest",
+      "file": "scenes/scene-index.json",
+      "license": "LinYH original / local generated",
+      "source": "local-generated",
+      "sha256": "42a040d74e351e3fa6a983c856ef0c393bece40713f2fd2c7d26c9ebf9bc4cc8",
+      "preview": "vangogh-motion-bg-v1.webp",
+      "loadGroup": "scenes.core",
+      "fallback": "procedural:scene-library",
+      "mobileVariant": null
+    },
+    {
+      "id": "material-index-v1",
+      "version": "1.0.0",
+      "type": "material-manifest",
+      "file": "materials/material-index.json",
+      "license": "LinYH original / local generated",
+      "source": "local-generated",
+      "sha256": "12d320a75c9d2e2eb91a06df56e8553d990267b9c11637e3a4a3b6ac650bbda9",
+      "preview": "ships-atlas-v1.webp",
+      "loadGroup": "materials.core",
+      "fallback": "procedural:material-library",
+      "mobileVariant": null
+    },
+    {
+      "id": "effects-index-v1",
+      "version": "1.0.0",
+      "type": "vfx-manifest",
+      "file": "vfx/effects-index.json",
+      "license": "LinYH original / local generated",
+      "source": "local-generated",
+      "sha256": "2c0c08e924e44bff90d9ac1a5358890accc326fc1b736d5fa1e3c0f16e129a48",
+      "preview": "ships-atlas-v1.webp",
+      "loadGroup": "vfx.combat",
+      "fallback": "procedural:vfx-library",
+      "mobileVariant": null
+    },
+    {
+      "id": "khronos-flighthelmet-gltf",
+      "version": "main",
+      "type": "remote-model",
+      "file": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/FlightHelmet/glTF/FlightHelmet.gltf",
+      "license": "CC0-1.0",
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/FlightHelmet",
+      "sha256": null,
+      "preview": "https://github.com/KhronosGroup/glTF-Sample-Assets/raw/main/Models/FlightHelmet/screenshot/screenshot.jpg",
+      "loadGroup": "models.showcase",
+      "fallback": "procedural:linyh-fighter",
+      "mobileVariant": null
+    }
+  ],
+  "assetDirectories": [
+    "models",
+    "materials",
+    "backgrounds",
+    "vfx",
+    "audio",
+    "scenes",
+    "previews"
+  ]
 }
