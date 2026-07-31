@@ -1,0 +1,22 @@
+{
+  "brand": "LinYH",
+  "version": "8.0",
+  "backgrounds": [
+    {"id":"vangogh-motion-bg-v1","file":"vangogh-motion-bg-v1.webp","type":"cinematic-space","motion":"slow-parallax"}
+  ],
+  "ships": [
+    {"id":"aether-01","name":"AETHER / 01","role":"balanced","skin":0},
+    {"id":"raven-07","name":"RAVEN / 07","role":"assault","skin":1},
+    {"id":"vanta-12","name":"VANTA / 12","role":"phase","skin":2},
+    {"id":"orbit-21","name":"ORBIT / 21","role":"support","skin":3},
+    {"id":"phantom-33","name":"PHANTOM / 33","role":"stealth","skin":4},
+    {"id":"solaris-48","name":"SOLARIS / 48","role":"thermal","skin":5}
+  ],
+  "equipment": [
+    {"id":"prism-core","name":"PRISM CORE","effect":"bullet-damage+25","color":"#ffd166"},
+    {"id":"ion-drive","name":"ION DRIVE","effect":"speed+35","color":"#7dffcf"},
+    {"id":"void-lens","name":"VOID LENS","effect":"pierce-damage+35","color":"#c18bff"},
+    {"id":"solar-cap","name":"SOLAR CAP","effect":"burn-field","color":"#ff8b45"}
+  ],
+  "motionPresets": ["beams","particles","lightfall","liquid-chrome","magnet","glitch","bloom"]
+}
