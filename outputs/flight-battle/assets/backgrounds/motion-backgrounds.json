@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "render": {"webVariant": "2400x1350 webp", "mobileVariant": "same asset with CSS crop", "motion": "css-parallax-composite"},
+  "backgrounds": [
+    {"id":"aurora-space","file":"aurora-space.webp","artist":"NASA","title":"Aurora Seen From Space","license":"Public Domain","source":"https://commons.wikimedia.org/wiki/File:Aurora_Seen_From_Space_by_NASA.jpg","layers":["orbit-drift","aurora-ribbon","star-dust","soft-bloom"],"accent":"aurora"},
+    {"id":"crab-nebula","file":"crab-nebula.webp","artist":"NASA / ESA / STScI","title":"Crab Nebula","license":"Public Domain (credit NASA, ESA, STScI)","source":"https://commons.wikimedia.org/wiki/File:Crab_Nebula_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg","layers":["nebula-breathe","particle-field","chromatic-scan","depth-drift"],"accent":"nebula"},
+    {"id":"jupiter-aurora","file":"jupiter-aurora.webp","artist":"NASA / STScI","title":"Jupiter Aurora","license":"Public Domain (credit NASA, STScI)","source":"https://commons.wikimedia.org/wiki/File:Released_to_Public_Hubble_Jupiter_Aurora_(NASA)_(420376085).jpg","layers":["magnetic-ring","electric-pulse","blue-bloom","grain"],"accent":"jupiter"},
+    {"id":"moon-surface","file":"moon-surface.webp","artist":"Wikideas1","title":"Moon surface 10k","license":"CC0 1.0","source":"https://commons.wikimedia.org/wiki/File:Moon_surface_10k.png","layers":["lunar-parallax","scan-grid","dust-pass","silver-vignette"],"accent":"moon"},
+    {"id":"omega-nebula","file":"omega-nebula.webp","artist":"NASA / ESA / STScI","title":"Omega Nebula","license":"Public Domain (credit NASA, ESA, STScI)","source":"https://commons.wikimedia.org/wiki/File:Omega_Nebula.jpg","layers":["gas-flow","starfield","prism-flare","slow-zoom"],"accent":"omega"},
+    {"id":"sombrero-galaxy","file":"sombrero-galaxy.webp","artist":"NASA / ESA / STScI","title":"Sombrero Galaxy","license":"Public Domain (credit NASA, ESA, STScI)","source":"https://commons.wikimedia.org/wiki/File:Sombrero_galaxy.jpg","layers":["galaxy-tilt","dust-ring","lens-bloom","micro-stars"],"accent":"sombrero"}
+  ]
+}

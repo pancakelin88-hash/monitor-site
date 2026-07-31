@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "sourceNotes": [
+    "Motion Primitives / open animated UI patterns",
+    "React Bits / open component references",
+    "Three.js post-processing examples"
+  ],
+  "prompts": [
+    {"id":"starfield-crossing","label":"穿越星河","preset":"orbit","prompt":"深空粒子沿弧形轨道穿越镜头，中心星云缓慢旋转，前景光丝产生视差和拖影，低频 Bloom，指针改变航向。"},
+    {"id":"twin-moon-gravity","label":"双月引力","preset":"liquid","prompt":"双月悬停在紫蓝大气层上方，潮汐环和尘埃带同步摆动，镜头从地平线飞入，保持电影级体积光。"},
+    {"id":"starry-night-flow","label":"星月夜流场","preset":"liquid","prompt":"保留《星月夜》原作笔触与构图，天空旋涡做极慢 UV 流动，星点独立闪烁，村庄保持静止，月亮只做呼吸光晕。"},
+    {"id":"monet-water-breath","label":"睡莲呼吸","preset":"liquid","prompt":"保留莫奈《睡莲》原作色彩与构图，水面加入微小双向扰动，睡莲漂移 2px，薄雾循环，禁止过度变形。"},
+    {"id":"carrier-fly-in","label":"航母飞入","preset":"warp","prompt":"战机从航母甲板远端高速飞入，弹射器灯光逐格点亮，海雾横向流动，镜头轻微震动后锁定机体。"},
+    {"id":"chrome-portal","label":"液态铬门","preset":"bloom","prompt":"液态铬环在黑色空间中折射星光，中心形成可穿越的门，边缘出现扫描线和冷色 Bloom，鼠标产生磁吸偏移。"},
+    {"id":"glass-rain","label":"玻璃雨幕","preset":"warp","prompt":"透明玻璃片从远处高速掠过，折射蓝白光线，雨丝与镜头景深同步，保持高对比和干净边缘。"},
+    {"id":"ink-void","label":"水墨深流","preset":"liquid","prompt":"黑色水墨在深蓝空间中缓慢扩散，边缘形成银色流线，颗粒在墨团之间穿梭，运动克制且有呼吸感。"},
+    {"id":"neon-tunnel","label":"霓虹隧道","preset":"warp","prompt":"多层霓虹环组成无限隧道，速度曲线先慢后快，镜头中心保持稳定，光带拖尾不遮挡主体。"},
+    {"id":"sunset-orbit","label":"火焰地平线","preset":"bloom","prompt":"橙红地平线像熔化金属一样缓慢起伏，飞船轮廓光随波动增强，远处尘埃形成柔和散射。"},
+    {"id":"aurora-ribbon","label":"极光缎带","preset":"orbit","prompt":"绿色与紫色极光形成三条巨型缎带，围绕核心星体反向旋转，粒子沿缎带边缘滑行。"},
+    {"id":"portal-flash","label":"传送闪回","preset":"bloom","prompt":"进入场景前先出现一帧白色闪光和深度模糊，随后 UI、背景和战机按深度顺序飞入并完成锁定。"}
+  ]
+}
