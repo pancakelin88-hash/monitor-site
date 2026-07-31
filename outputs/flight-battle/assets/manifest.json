@@ -18,5 +18,12 @@
     {"id":"void-lens","name":"VOID LENS","effect":"pierce-damage+35","color":"#c18bff"},
     {"id":"solar-cap","name":"SOLAR CAP","effect":"burn-field","color":"#ff8b45"}
   ],
-  "motionPresets": ["beams","particles","lightfall","liquid-chrome","magnet","glitch","bloom"]
+  "motionPresets": ["beams","particles","lightfall","liquid-chrome","magnet","glitch","bloom"],
+  "modelPipeline": {
+    "renderer": "three.js",
+    "format": "glTF / GLB",
+    "loader": "GLTFLoader",
+    "material": "PBR",
+    "sources": ["Khronos glTF Sample Assets", "Poly Haven CC0"]
+  }
 }
