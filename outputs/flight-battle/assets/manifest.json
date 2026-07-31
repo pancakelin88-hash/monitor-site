@@ -36,6 +36,17 @@
     {"id":"solar-field","name":"SOLAR FIELD","cooldown":15,"effect":"area-burn-and-elliptic-ring","color":"#ff8b45"}
   ],
   "motionPresets": ["beams","particles","lightfall","liquid-chrome","magnet","glitch","bloom"],
+  "threeDCombat": {
+    "mode": "2.5D perspective + procedural 3D prisms",
+    "layers": ["vanishing-grid", "depth-scanlines", "orbit-rings", "volumetric-bloom"],
+    "mobileFallback": "reduced-grid-and-bloom"
+  },
+  "transformSystem": {
+    "toggle": "T / touch button",
+    "forms": ["cruise", "assault"],
+    "assaultBonuses": ["+16% speed", "+2 weapon mounts", "+24% shot power"],
+    "feedback": ["mechanical wing unfold", "core orbit", "particle burst", "screen flash"]
+  },
   "modelPipeline": {
     "renderer": "three.js",
     "format": "glTF / GLB",
