@@ -47,6 +47,12 @@
     "assaultBonuses": ["+16% speed", "+2 weapon mounts", "+24% shot power"],
     "feedback": ["mechanical wing unfold", "core orbit", "particle burst", "screen flash"]
   },
+  "weaponProgression": {
+    "maxLevel": 24,
+    "hudSegments": 12,
+    "levelsPerSegment": 2,
+    "bands": ["ion", "aurora", "void", "nebula", "prism", "solar"]
+  },
   "modelPipeline": {
     "renderer": "three.js",
     "format": "glTF / GLB",
