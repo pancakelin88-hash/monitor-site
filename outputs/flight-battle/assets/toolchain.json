@@ -1,0 +1,27 @@
+{
+  "brand": "LinYH",
+  "version": "1.0.0",
+  "purpose": "可复用的 2D/3D 动态素材与游戏视觉工作流",
+  "runtime": [
+    {"name":"Canvas 2D","role":"低延迟局内战斗渲染","status":"bundled"},
+    {"name":"Three.js","role":"3D 模型、后处理、Bloom","install":"npm i three"},
+    {"name":"React Three Fiber","role":"React 场景编排与交互","install":"npm i three @react-three/fiber @react-three/drei"}
+  ],
+  "art": [
+    {"name":"Blender","role":"战机建模、骨骼、烘焙、GLB 导出","url":"https://www.blender.org/"},
+    {"name":"Krita","role":"贴图、概念图、VFX 序列帧","url":"https://krita.org/"},
+    {"name":"glTF-Transform","role":"GLB 压缩、纹理优化、移动端变体","install":"npm i -g @gltf-transform/cli"}
+  ],
+  "openAssets": [
+    {"name":"NASA / Wikimedia Commons","role":"公版星云、月面、艺术图","license":"Public Domain"},
+    {"name":"Poly Haven","role":"CC0 HDRI、材质、环境贴图","url":"https://polyhaven.com/","license":"CC0"},
+    {"name":"Kenney","role":"CC0 游戏图标、UI、粒子素材","url":"https://kenney.nl/assets","license":"CC0"},
+    {"name":"Khronos glTF Sample Assets","role":"GLB/PBR 测试模型","url":"https://github.com/KhronosGroup/glTF-Sample-Assets","license":"CC0 / per-entry"},
+    {"name":"OpenGameArt","role":"可筛选 CC0 VFX 与音效","url":"https://opengameart.org/","license":"per-entry"}
+  ],
+  "pipeline": [
+    "素材筛选 → 统一命名 → Blender/Krita 处理 → glTF-Transform 压缩",
+    "导出 desktop/mobile 两档 → 写入 assets/manifest.json → validate-assets.mjs",
+    "Canvas 2D 局内层 + Three.js 展示层 → Vercel 构建 → 浏览器回归"
+  ]
+}

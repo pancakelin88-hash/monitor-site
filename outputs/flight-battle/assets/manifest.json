@@ -1,6 +1,6 @@
 {
   "brand": "LinYH",
-  "version": "8.3",
+  "version": "8.5",
   "backgrounds": [
     {"id":"vangogh-motion-bg-v1","file":"vangogh-motion-bg-v1.webp","type":"cinematic-space","motion":"slow-parallax"},
     {"id":"aurora-space","file":"backgrounds/aurora-space.webp","type":"open-cosmic","motion":"aurora-ribbon"},
@@ -18,11 +18,22 @@
     {"id":"phantom-33","name":"PHANTOM / 33","role":"stealth","skin":4},
     {"id":"solaris-48","name":"SOLARIS / 48","role":"thermal","skin":5}
   ],
+  "shipBackgrounds": {
+    "file": "backgrounds/ship-backgrounds.json",
+    "fallback": "procedural:starfield",
+    "motionLayers": ["parallax", "particles", "bloom", "scanline"]
+  },
   "equipment": [
     {"id":"prism-core","name":"PRISM CORE","effect":"bullet-damage+25","color":"#ffd166"},
     {"id":"ion-drive","name":"ION DRIVE","effect":"speed+35","color":"#7dffcf"},
     {"id":"void-lens","name":"VOID LENS","effect":"pierce-damage+35","color":"#c18bff"},
     {"id":"solar-cap","name":"SOLAR CAP","effect":"burn-field","color":"#ff8b45"}
+  ],
+  "combatSkills": [
+    {"id":"prism-rain","name":"PRISM RAIN","cooldown":7.5,"effect":"sevenfold-barrage","color":"#ffd166"},
+    {"id":"void-lance","name":"VOID LANCE","cooldown":9,"effect":"perspective-pierce-beam","color":"#c18bff"},
+    {"id":"ion-nova","name":"ION NOVA","cooldown":12,"effect":"clear-bullet-pulse","color":"#70f6ff"},
+    {"id":"solar-field","name":"SOLAR FIELD","cooldown":15,"effect":"area-burn-and-elliptic-ring","color":"#ff8b45"}
   ],
   "motionPresets": ["beams","particles","lightfall","liquid-chrome","magnet","glitch","bloom"],
   "modelPipeline": {
@@ -251,6 +262,32 @@
       "preview": "https://github.com/KhronosGroup/glTF-Sample-Assets/raw/main/Models/FlightHelmet/screenshot/screenshot.jpg",
       "loadGroup": "models.showcase",
       "fallback": "procedural:linyh-fighter",
+      "mobileVariant": null
+    },
+    {
+      "id": "ship-backgrounds-v1",
+      "version": "1.0.0",
+      "type": "ship-background-manifest",
+      "file": "backgrounds/ship-backgrounds.json",
+      "license": "LinYH original composition / source licenses per background entry",
+      "source": "local-generated + NASA / Wikimedia Commons / CC0 sources",
+      "sha256": "9ac2e60201a88e455d45407d528aa9d18dd1e9e84220ede2bc7c04b7b9eea527",
+      "preview": "backgrounds/sombrero-galaxy.webp",
+      "loadGroup": "backgrounds.hangar",
+      "fallback": "procedural:hangar-backdrop",
+      "mobileVariant": "backgrounds/ship-backgrounds.json"
+    },
+    {
+      "id": "toolchain-v1",
+      "version": "1.0.0",
+      "type": "toolchain-manifest",
+      "file": "toolchain.json",
+      "license": "LinYH workflow metadata",
+      "source": "local-generated",
+      "sha256": "7eeb98bf8f9cde96dcc2e5846c96de2744ac814887e576bc7aac9ff347ed0cfd",
+      "preview": "ships-atlas-v1.webp",
+      "loadGroup": "pipeline.docs",
+      "fallback": "none",
       "mobileVariant": null
     }
   ],

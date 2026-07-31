@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "brand": "LinYH",
+  "description": "Six hangar-ready fighter backdrop kits with layered motion recipes.",
+  "ships": [
+    {
+      "id": "aether-01",
+      "name": "AETHER / 01",
+      "base": "backgrounds/sombrero-galaxy.webp",
+      "motion": ["galaxy-tilt", "dust-ring", "lens-bloom"],
+      "accent": "#70f6ff",
+      "grade": "balanced",
+      "layers": ["starfield", "parallax-ring", "scanline", "soft-bloom"]
+    },
+    {
+      "id": "raven-07",
+      "name": "RAVEN / 07",
+      "base": "backgrounds/jupiter-aurora.webp",
+      "motion": ["magnetic-ring", "electric-pulse", "blue-bloom"],
+      "accent": "#8d7cff",
+      "grade": "assault",
+      "layers": ["aurora-ribbon", "orbit-grid", "grain", "pulse-flare"]
+    },
+    {
+      "id": "vanta-12",
+      "name": "VANTA / 12",
+      "base": "backgrounds/crab-nebula.webp",
+      "motion": ["nebula-breathe", "chromatic-scan", "depth-drift"],
+      "accent": "#c18bff",
+      "grade": "phase",
+      "layers": ["gas-cloud", "particle-field", "chromatic-aberration", "void-vignette"]
+    },
+    {
+      "id": "orbit-21",
+      "name": "ORBIT / 21",
+      "base": "backgrounds/aurora-space.webp",
+      "motion": ["aurora-ribbon", "star-dust", "soft-bloom"],
+      "accent": "#7dffcf",
+      "grade": "support",
+      "layers": ["polar-light", "micro-stars", "lightfall", "flight-deck-grid"]
+    },
+    {
+      "id": "phantom-33",
+      "name": "PHANTOM / 33",
+      "base": "backgrounds/moon-surface.webp",
+      "motion": ["lunar-parallax", "scan-grid", "dust-pass"],
+      "accent": "#d8e7ff",
+      "grade": "stealth",
+      "layers": ["lunar-depth", "silver-vignette", "signal-noise", "ghost-glow"]
+    },
+    {
+      "id": "solaris-48",
+      "name": "SOLARIS / 48",
+      "base": "backgrounds/omega-nebula.webp",
+      "motion": ["gas-flow", "prism-flare", "slow-zoom"],
+      "accent": "#ff8b45",
+      "grade": "thermal",
+      "layers": ["ember-cloud", "starfield", "heat-haze", "solar-scan"]
+    }
+  ],
+  "fallback": {
+    "base": "procedural:starfield",
+    "layers": ["parallax", "particles", "bloom", "scanline"]
+  }
+}
