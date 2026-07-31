@@ -1,0 +1,25 @@
+{
+  "brand": "LinYH",
+  "version": "1.0.0",
+  "description": "可组合的战机武器、装甲、推进与核心部件目录；局内以程序化几何和粒子表现。",
+  "modules": [
+    {"id":"aether-pulse","slot":"primary","name":"AETHER PULSE","style":"pulse","color":"#70f6ff","effect":"稳定脉冲 / 双推进器","tier":"MK-I"},
+    {"id":"prism-rail","slot":"primary","name":"PRISM RAIL","style":"fan","color":"#ffd166","effect":"折射扇刃 / 三棱挂点","tier":"MK-II"},
+    {"id":"ion-needle","slot":"primary","name":"ION NEEDLE","style":"needle","color":"#7dffcf","effect":"针束加速 / 离子尾焰","tier":"MK-II"},
+    {"id":"void-orb","slot":"core","name":"VOID ORB","style":"orb","color":"#c18bff","effect":"引力能量球 / 相位核","tier":"MK-III"},
+    {"id":"solar-ring","slot":"wing","name":"SOLAR RING","style":"ring","color":"#ff8b45","effect":"环刃热流 / 恒星护舷","tier":"MK-III"},
+    {"id":"core-diamond","slot":"core","name":"CORE DIAMOND","style":"diamond","color":"#f4f1ff","effect":"棱晶核心 / 穿透伤害","tier":"MK-IV"},
+    {"id":"chrome-lance","slot":"primary","name":"CHROME LANCE","style":"chrome","color":"#d7fbff","effect":"液态铬枪 / 镜面折射","tier":"MK-IV"},
+    {"id":"nebula-bloom","slot":"reactor","name":"NEBULA BLOOM","style":"nebula","color":"#ff78c8","effect":"星云螺旋 / 范围溅射","tier":"MK-V"},
+    {"id":"aegis-lattice","slot":"armor","name":"AEGIS LATTICE","style":"shield","color":"#70f6ff","effect":"护盾格栅 / 擦弹回能","tier":"MK-II"},
+    {"id":"null-shell","slot":"armor","name":"NULL SHELL","style":"cloak","color":"#c18bff","effect":"幻影装甲 / 受击闪烁","tier":"MK-III"},
+    {"id":"overdrive-fin","slot":"wing","name":"OVERDRIVE FIN","style":"boost","color":"#ffd166","effect":"翼面展开 / 突进增幅","tier":"MK-III"},
+    {"id":"singularity-heart","slot":"reactor","name":"SINGULARITY HEART","style":"gravity","color":"#f4f1ff","effect":"引力核心 / 变形同步","tier":"MK-VI"}
+  ],
+  "vfxSockets": [
+    "muzzle-prism", "muzzle-needle", "muzzle-orb", "muzzle-ring",
+    "wing-fold-left", "wing-fold-right", "core-orbit", "thruster-afterglow",
+    "shield-lattice", "impact-shard", "pickup-hologram", "transform-flash"
+  ],
+  "fallback": "procedural:module-geometry"
+}
