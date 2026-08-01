@@ -393,6 +393,21 @@
       "loadGroup": "pipeline.expansion",
       "fallback": "procedural:facility-grid",
       "mobileVariant": "models/facility-index.json"
+    },
+    {
+      "id": "upgrade-effects-v3",
+      "version": "3.0.0",
+      "type": "pbr-upgrade-and-vfx-atlas",
+      "file": "sprites/upgrade-effects-v3.png",
+      "license": "LinYH generated original",
+      "source": "OpenAI ImageGen",
+      "sha256": null,
+      "preview": "sprites/upgrade-effects-v3.png",
+      "loadGroup": "sprites.upgrades",
+      "fallback": "sprites/module-parts-v1.svg",
+      "mobileVariant": "sprites/upgrade-effects-v3.png",
+      "cells": {"evolutionWings":4,"mechanicalHalos":4,"weaponMounts":4,"activationEffects":4},
+      "materials": ["PBR-metal","emissive-glass","machined-bevel","restrained-bloom"]
     }
   ],
   "assetDirectories": [
