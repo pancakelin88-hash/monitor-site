@@ -25,6 +25,7 @@ import {
   Database,
   Gauge,
   GitFork,
+  Gamepad2,
   Globe2,
   HardDrive,
   Radio,
@@ -248,6 +249,9 @@ function App() {
           <button className={page === 'incidents' ? 'active' : ''} onClick={() => setPage('incidents')}>事件</button>
         </nav>
         <div className="status-cluster">
+          <a className="game-launch" href="/flight-battle/" target="_blank" rel="noreferrer">
+            <Gamepad2 size={14} /> <span>PHASE STRIKE</span>
+          </a>
           <span className={`live-badge ${dataMode}`}>
             <span className="status-dot" />
             {dataMode === 'live' ? 'LIVE' : dataMode === 'error' ? 'FALLBACK' : 'DEMO'}

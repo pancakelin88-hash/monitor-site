@@ -16,6 +16,7 @@
 - `materials/`：PBR 材质贴图
 - `backgrounds/`：场景底图与 HDRI
 - `vfx/`：爆炸、尾焰、掉落和转场特效
+- `sprites/`：统一 PBR 元素 atlas；局内弹体、掉落和敌机优先使用真实图像，程序化绘制只作回退
 - `audio/`：音乐与音效
 - `scenes/`：场景组合清单
 - `previews/`：素材库缩略图
@@ -23,3 +24,7 @@
 新增文件时，先在对应目录登记来源和授权，再计算
 `shasum -a 256 <file>` 并把结果写入索引。完整的导出、加载和发布门槛见
 [`../WORKFLOW.md`](../WORKFLOW.md)。
+
+## 局内元素包
+
+`sprites/linyh-elements-v1.svg` 是 1024×1024 的 16 格 atlas：8 种弹体、4 种掉落核心和 4 种敌机基型。每格使用倒角金属、镜面高光、发光核心和体积光，不依赖手绘几何；Canvas 按 cell 加载，移动端自动缩放。

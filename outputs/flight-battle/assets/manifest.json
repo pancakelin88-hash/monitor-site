@@ -1,6 +1,6 @@
 {
   "brand": "LinYH",
-  "version": "8.6",
+  "version": "9.2",
   "backgrounds": [
     {"id":"vangogh-motion-bg-v1","file":"vangogh-motion-bg-v1.webp","type":"cinematic-space","motion":"slow-parallax"},
     {"id":"aurora-space","file":"backgrounds/aurora-space.webp","type":"open-cosmic","motion":"aurora-ribbon"},
@@ -16,7 +16,11 @@
     {"id":"vanta-12","name":"VANTA / 12","role":"phase","skin":2},
     {"id":"orbit-21","name":"ORBIT / 21","role":"support","skin":3},
     {"id":"phantom-33","name":"PHANTOM / 33","role":"stealth","skin":4},
-    {"id":"solaris-48","name":"SOLARIS / 48","role":"thermal","skin":5}
+    {"id":"solaris-48","name":"SOLARIS / 48","role":"thermal","skin":5},
+    {"id":"nebula-64","name":"NEBULA / 64","role":"refract","skin":6},
+    {"id":"aurora-71","name":"AURORA / 71","role":"support","skin":7},
+    {"id":"chrome-88","name":"CHROME / 88","role":"mirror","skin":8},
+    {"id":"eclipse-99","name":"ECLIPSE / 99","role":"assault","skin":9}
   ],
   "shipBackgrounds": {
     "file": "backgrounds/ship-backgrounds.json",
@@ -319,6 +323,21 @@
       "loadGroup": "combat.modules",
       "fallback": "procedural:module-geometry",
       "mobileVariant": "modules/combat-modules.json"
+    },
+    {
+      "id": "linyh-elements-v1",
+      "version": "1.0.0",
+      "type": "pbr-vector-sprite-atlas",
+      "file": "sprites/linyh-elements-v1.svg",
+      "license": "LinYH original / generated vector asset",
+      "source": "local-generated",
+      "sha256": null,
+      "preview": "sprites/linyh-elements-v1.svg",
+      "loadGroup": "sprites.combat",
+      "fallback": "procedural:combat-elements",
+      "mobileVariant": "sprites/linyh-elements-v1.svg",
+      "cells": {"weapons": 8, "pickups": 4, "enemies": 4},
+      "materials": ["beveled-metal", "emissive-core", "clearcoat", "volumetric-glow"]
     }
   ],
   "assetDirectories": [
@@ -329,6 +348,7 @@
     "modules",
     "audio",
     "scenes",
-    "previews"
+    "previews",
+    "sprites"
   ]
 }
