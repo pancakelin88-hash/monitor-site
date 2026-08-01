@@ -5,6 +5,10 @@
     "url": "https://kenney.nl/assets/space-kit",
     "license": "CC0 1.0"
   },
+  "packs": [
+    {"id":"kenney-space-kit","models":10,"license":"CC0 1.0","root":"kenney-space-kit/"},
+    {"id":"kenney-space-station","models":97,"license":"CC0 1.0","root":"kenney-space-station/","index":"facility-index.json"}
+  ],
   "models": [
     { "id": "craft_racer", "role": "interceptor", "file": "kenney-space-kit/craft_racer.glb" },
     { "id": "craft_miner", "role": "heavy-engineer", "file": "kenney-space-kit/craft_miner.glb" },
@@ -15,6 +19,14 @@
     { "id": "craft_speederC", "role": "cruiser", "file": "kenney-space-kit/craft_speederC.glb" },
     { "id": "craft_speederD", "role": "eclipse-interceptor", "file": "kenney-space-kit/craft_speederD.glb" },
     { "id": "hangar_largeA", "role": "launch-hangar", "file": "kenney-space-kit/hangar_largeA.glb" },
-    { "id": "hangar_roundA", "role": "service-hangar", "file": "kenney-space-kit/hangar_roundA.glb" }
+    { "id": "hangar_roundA", "role": "service-hangar", "file": "kenney-space-kit/hangar_roundA.glb" },
+    { "id": "repair-console", "role": "repair-control", "file": "kenney-space-station/computer-system.glb" },
+    { "id": "diagnostic-wall", "role": "diagnostic-display", "file": "kenney-space-station/display-wall-wide.glb" },
+    { "id": "holo-diagnostics", "role": "holographic-diagnostics", "file": "kenney-space-station/table-display.glb" },
+    { "id": "navigation-table", "role": "navigation", "file": "kenney-space-station/table-display-planet.glb" },
+    { "id": "module-crate", "role": "module-storage", "file": "kenney-space-station/container-flat-open.glb" },
+    { "id": "transform-gantry", "role": "transform-gantry", "file": "kenney-space-station/structure-barrier-high.glb" },
+    { "id": "repair-frame", "role": "repair-frame", "file": "kenney-space-station/structure.glb" },
+    { "id": "hangar-airlock", "role": "airlock", "file": "kenney-space-station/door-double.glb" }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "brand": "LinYH",
+  "version": "10.0.0",
+  "purpose": "未来战机、敌机、武器、技能、变形、机库和场景的统一扩展协议",
+  "ships": [
+    {"id":"nx-interceptor","role":"interceptor","forms":["cruise","assault-mech"],"mounts":["nose","wing-l","wing-r","core"]},
+    {"id":"atlas-artillery","role":"heavy-artillery","forms":["cruise","siege-mech"],"mounts":["rail-l","rail-r","shoulder-l","shoulder-r","core"]},
+    {"id":"shade-phase","role":"stealth","forms":["cruise","phase-mech"],"mounts":["phase-lens","wing-l","wing-r","core"]},
+    {"id":"mercy-rescue","role":"support","forms":["cruise","rescue-mech"],"mounts":["repair-drone","shield-projector","tractor-beam","core"]}
+  ],
+  "enemyFactions": [
+    {"id":"scarlet-legion","archetypes":["scout","sniper","tank","carrier","dreadnought"],"visual":"red angular armor / exposed hot core"},
+    {"id":"void-swarm","archetypes":["drone","phase-ray","orb-weaver","hive","singularity"],"visual":"violet bio-mechanical shell / orbiting fragments"},
+    {"id":"chrome-order","archetypes":["blade","mirror","lancer","cathedral","seraph"],"visual":"silver clearcoat / cyan edge / reflective weapon fins"}
+  ],
+  "projectiles": [
+    {"id":"pulse","shape":"capsule","motion":"straight","upgrade":"split"},
+    {"id":"needle","shape":"piercing-needle","motion":"accelerate","upgrade":"phase-pierce"},
+    {"id":"prism-fan","shape":"tri-blade","motion":"fan","upgrade":"ricochet"},
+    {"id":"void-orb","shape":"orbital-sphere","motion":"homing","upgrade":"singularity"},
+    {"id":"solar-arc","shape":"crescent","motion":"chain","upgrade":"burn-chain"},
+    {"id":"gravity-coil","shape":"double-helix","motion":"spiral","upgrade":"slow-field"},
+    {"id":"rail-lance","shape":"long-beam","motion":"instant","upgrade":"armor-break"},
+    {"id":"drone-array","shape":"micro-missile","motion":"swarm","upgrade":"target-lock"}
+  ],
+  "equipment": [
+    {"id":"adaptive-wing","slot":"wing","tiers":12,"visual":"segmented unfolding wing"},
+    {"id":"reactor-heart","slot":"core","tiers":12,"visual":"nested rotating core"},
+    {"id":"rail-shoulder","slot":"weapon","tiers":18,"visual":"telescopic rail cannon"},
+    {"id":"aegis-projector","slot":"armor","tiers":12,"visual":"hexagonal shield emitters"},
+    {"id":"repair-drone","slot":"utility","tiers":10,"visual":"folding autonomous drone"},
+    {"id":"phase-cloak","slot":"utility","tiers":10,"visual":"refractive armor petals"}
+  ],
+  "skills": [
+    {"id":"prism-rain","class":"barrage","stages":["lock","deploy","fire","retract"]},
+    {"id":"void-lance","class":"beam","stages":["charge","lens-open","pierce","cooldown"]},
+    {"id":"ion-nova","class":"clear","stages":["core-pulse","ring-expand","shard-convert"]},
+    {"id":"solar-field","class":"area","stages":["ignite","orbit","burn","collapse"]},
+    {"id":"mech-overdrive","class":"transform","stages":["armor-unlock","wing-fold","limb-deploy","weapon-lock"]},
+    {"id":"repair-swarm","class":"support","stages":["drone-launch","scan","weld","return"]}
+  ],
+  "scenes": [
+    {"id":"repair-bay","layers":["facility","gantry","scanner","sparks","hologram"]},
+    {"id":"transform-dock","layers":["facility","mechanical-arms","core-field","steam","warning-light"]},
+    {"id":"carrier-deck","layers":["deck","catapult","blast-shield","fog","fly-in"]},
+    {"id":"orbital-city","layers":["city","traffic","clouds","beacons","defense-grid"]},
+    {"id":"asteroid-mine","layers":["rocks","excavator","debris","laser","dust"]},
+    {"id":"void-cathedral","layers":["ruins","black-hole","fragments","gravity-lines","boss-gate"]}
+  ],
+  "runtimeRules": {
+    "assetLoading": "manifest-driven lazy loading",
+    "modelFormat": "GLB",
+    "combatSprites": "atlas or procedural Canvas fallback",
+    "vfx": "pooled particles + cached glow sprites + additive light budget",
+    "mobile": "same silhouettes and gameplay / reduced secondary bloom only"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "source": {
+    "name": "Kenney Space Station Kit",
+    "url": "https://kenney.nl/assets/space-station-kit",
+    "license": "CC0 1.0",
+    "localRoot": "kenney-space-station/"
+  },
+  "stats": {
+    "localGlbFiles": 97,
+    "webFormat": "GLB",
+    "runtime": "Three.js GLTFLoader"
+  },
+  "curated": [
+    {"id":"repair-console","file":"computer-system.glb","role":"repair-control","label":"维修控制台"},
+    {"id":"diagnostic-wall","file":"display-wall-wide.glb","role":"diagnostic-display","label":"诊断显示墙"},
+    {"id":"holo-diagnostics","file":"table-display.glb","role":"holographic-diagnostics","label":"全息诊断台"},
+    {"id":"navigation-table","file":"table-display-planet.glb","role":"navigation","label":"轨道星图台"},
+    {"id":"module-crate","file":"container-flat-open.glb","role":"module-storage","label":"开放式部件箱"},
+    {"id":"armor-crate","file":"container-tall.glb","role":"armor-storage","label":"装甲储存箱"},
+    {"id":"hangar-airlock","file":"door-double.glb","role":"airlock","label":"双开气闸"},
+    {"id":"hangar-airlock-sealed","file":"door-double-closed.glb","role":"airlock-sealed","label":"密封气闸"},
+    {"id":"coolant-pipe","file":"pipe.glb","role":"coolant","label":"冷却管线"},
+    {"id":"coolant-joint","file":"pipe-bend.glb","role":"coolant-joint","label":"冷却弯管"},
+    {"id":"launch-floor","file":"floor-panel.glb","role":"launch-floor","label":"起飞甲板"},
+    {"id":"service-floor","file":"floor-detail.glb","role":"service-floor","label":"维修地板"},
+    {"id":"transform-gantry","file":"structure-barrier-high.glb","role":"transform-gantry","label":"变形龙门架"},
+    {"id":"repair-frame","file":"structure.glb","role":"repair-frame","label":"维修框架"},
+    {"id":"service-stairs","file":"stairs-handrail.glb","role":"service-access","label":"检修楼梯"},
+    {"id":"observation-rail","file":"balcony-rail.glb","role":"observation","label":"观察栏杆"}
+  ],
+  "compositions": [
+    {
+      "id": "repair-bay-a",
+      "label": "自动维修站 A",
+      "parts": ["repair-frame", "repair-console", "holo-diagnostics", "module-crate", "coolant-pipe"],
+      "animation": ["gantry-descend", "scanner-sweep", "armor-lock", "coolant-pulse"]
+    },
+    {
+      "id": "transform-bay-x",
+      "label": "机库变形坞 X",
+      "parts": ["transform-gantry", "diagnostic-wall", "launch-floor", "hangar-airlock", "navigation-table"],
+      "animation": ["wing-unfold", "leg-deploy", "core-rotate", "weapon-lock", "launch-release"]
+    },
+    {
+      "id": "carrier-deck-01",
+      "label": "航母起飞甲板",
+      "parts": ["launch-floor", "observation-rail", "service-stairs", "diagnostic-wall", "hangar-airlock-sealed"],
+      "animation": ["deck-light-chase", "catapult-charge", "blast-shield-rise", "craft-fly-in"]
+    }
+  ]
+}

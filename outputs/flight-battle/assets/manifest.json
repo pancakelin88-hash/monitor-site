@@ -1,6 +1,6 @@
 {
   "brand": "LinYH",
-  "version": "9.2",
+  "version": "10.0",
   "backgrounds": [
     {"id":"vangogh-motion-bg-v1","file":"vangogh-motion-bg-v1.webp","type":"cinematic-space","motion":"slow-parallax"},
     {"id":"aurora-space","file":"backgrounds/aurora-space.webp","type":"open-cosmic","motion":"aurora-ribbon"},
@@ -338,6 +338,61 @@
       "mobileVariant": "sprites/linyh-elements-v1.svg",
       "cells": {"weapons": 8, "pickups": 4, "enemies": 4},
       "materials": ["beveled-metal", "emissive-core", "clearcoat", "volumetric-glow"]
+    },
+    {
+      "id": "combat-elements-v2",
+      "version": "2.0.0",
+      "type": "pbr-raster-sprite-atlas",
+      "file": "sprites/combat-elements-v2.png",
+      "license": "LinYH generated original",
+      "source": "OpenAI ImageGen",
+      "sha256": null,
+      "preview": "sprites/combat-elements-v2.png",
+      "loadGroup": "sprites.combat",
+      "fallback": "procedural:combat-elements",
+      "mobileVariant": "sprites/combat-elements-v2.png",
+      "cells": {"playerProjectiles":8,"enemyProjectiles":4,"equipment":4}
+    },
+    {
+      "id": "world-elements-v2",
+      "version": "2.0.0",
+      "type": "pbr-raster-world-atlas",
+      "file": "sprites/world-elements-v2.png",
+      "license": "LinYH generated original",
+      "source": "OpenAI ImageGen",
+      "sha256": null,
+      "preview": "sprites/world-elements-v2.png",
+      "loadGroup": "sprites.world",
+      "fallback": "procedural:world-elements",
+      "mobileVariant": "sprites/world-elements-v2.png",
+      "cells": {"friendlyAircraft":4,"enemyAircraft":4,"facilities":4,"skillDevices":4}
+    },
+    {
+      "id": "kenney-space-station-glb",
+      "version": "1.0.0",
+      "type": "facility-model-pack",
+      "file": "models/kenney-space-station/",
+      "license": "CC0 1.0",
+      "source": "https://kenney.nl/assets/space-station-kit",
+      "sha256": null,
+      "preview": "models/kenney-space-station/table-display-planet.glb",
+      "loadGroup": "models.facility",
+      "fallback": "procedural:repair-bay",
+      "mobileVariant": "models/kenney-space-station/computer-system.glb",
+      "files": 97
+    },
+    {
+      "id": "facility-and-expansion-index-v1",
+      "version": "1.0.0",
+      "type": "composition-catalog",
+      "file": "models/facility-index.json",
+      "license": "LinYH composition / Kenney CC0",
+      "source": "local-composition",
+      "sha256": null,
+      "preview": "models/kenney-space-station/structure-barrier-high.glb",
+      "loadGroup": "pipeline.expansion",
+      "fallback": "procedural:facility-grid",
+      "mobileVariant": "models/facility-index.json"
     }
   ],
   "assetDirectories": [

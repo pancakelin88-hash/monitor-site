@@ -1,0 +1,71 @@
+{
+  "version": "2.0.0",
+  "brand": "LinYH",
+  "cellLayout": { "columns": 4, "rows": 4 },
+  "atlases": {
+    "combat": {
+      "file": "combat-elements-v2.png",
+      "source": "LinYH generated / chroma-key extracted",
+      "categories": {
+        "playerProjectiles": [
+          { "id": "rail-dart", "cell": [0, 0], "behavior": "straight" },
+          { "id": "prism-bolt", "cell": [1, 0], "behavior": "fan" },
+          { "id": "ion-needle", "cell": [2, 0], "behavior": "high-speed" },
+          { "id": "void-orb", "cell": [3, 0], "behavior": "energy-orb" },
+          { "id": "solar-crescent", "cell": [0, 1], "behavior": "arc" },
+          { "id": "chrome-torpedo", "cell": [1, 1], "behavior": "heavy" },
+          { "id": "nebula-coil", "cell": [2, 1], "behavior": "coil" },
+          { "id": "gravity-ring", "cell": [3, 1], "behavior": "ring" }
+        ],
+        "enemyProjectiles": [
+          { "id": "crimson-needle", "cell": [0, 2], "behavior": "sniper" },
+          { "id": "magenta-missile", "cell": [1, 2], "behavior": "fan" },
+          { "id": "amber-heavy-shell", "cell": [2, 2], "behavior": "heavy" },
+          { "id": "cyan-drone-pulse", "cell": [3, 2], "behavior": "pulse" }
+        ],
+        "equipment": [
+          { "id": "twin-rail-pod", "cell": [0, 3] },
+          { "id": "shield-emitter", "cell": [1, 3] },
+          { "id": "mech-coupler", "cell": [2, 3] },
+          { "id": "singularity-coil", "cell": [3, 3] }
+        ]
+      }
+    },
+    "world": {
+      "file": "world-elements-v2.png",
+      "source": "LinYH generated / chroma-key extracted",
+      "categories": {
+        "friendlyAircraft": [
+          { "id": "interceptor", "cell": [0, 0] },
+          { "id": "assault-fighter", "cell": [1, 0] },
+          { "id": "fold-wing-mech-jet", "cell": [2, 0] },
+          { "id": "support-gunship", "cell": [3, 0] }
+        ],
+        "enemyAircraft": [
+          { "id": "crimson-scout", "cell": [0, 1] },
+          { "id": "magenta-sniper", "cell": [1, 1] },
+          { "id": "bronze-bomber", "cell": [2, 1] },
+          { "id": "violet-command-cruiser", "cell": [3, 1] }
+        ],
+        "facilities": [
+          { "id": "carrier-flight-deck", "cell": [0, 2] },
+          { "id": "robotic-repair-cradle", "cell": [1, 2] },
+          { "id": "circular-hangar-gate", "cell": [2, 2] },
+          { "id": "refuel-rearm-dock", "cell": [3, 2] }
+        ],
+        "skillDevices": [
+          { "id": "missile-rack", "cell": [0, 3] },
+          { "id": "twin-plasma-cannon", "cell": [1, 3] },
+          { "id": "combat-drone-bay", "cell": [2, 3] },
+          { "id": "quantum-overdrive-reactor", "cell": [3, 3] }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "rendering": "source-over PBR sprite + restrained additive trail",
+    "fallback": "procedural Canvas shapes",
+    "motion": ["bank", "fold", "dive", "hover", "hit-flash"],
+    "skills": ["prism", "void", "ion", "solar", "rail", "phase"]
+  }
+}
