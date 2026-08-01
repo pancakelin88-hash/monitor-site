@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "source": {
+    "name": "Kenney Space Kit",
+    "url": "https://kenney.nl/assets/space-kit",
+    "license": "CC0 1.0"
+  },
+  "models": [
+    { "id": "craft_racer", "role": "interceptor", "file": "kenney-space-kit/craft_racer.glb" },
+    { "id": "craft_miner", "role": "heavy-engineer", "file": "kenney-space-kit/craft_miner.glb" },
+    { "id": "craft_cargoA", "role": "armored-transport", "file": "kenney-space-kit/craft_cargoA.glb" },
+    { "id": "craft_cargoB", "role": "carrier", "file": "kenney-space-kit/craft_cargoB.glb" },
+    { "id": "craft_speederA", "role": "scout", "file": "kenney-space-kit/craft_speederA.glb" },
+    { "id": "craft_speederB", "role": "assault", "file": "kenney-space-kit/craft_speederB.glb" },
+    { "id": "craft_speederC", "role": "cruiser", "file": "kenney-space-kit/craft_speederC.glb" },
+    { "id": "craft_speederD", "role": "eclipse-interceptor", "file": "kenney-space-kit/craft_speederD.glb" },
+    { "id": "hangar_largeA", "role": "launch-hangar", "file": "kenney-space-kit/hangar_largeA.glb" },
+    { "id": "hangar_roundA", "role": "service-hangar", "file": "kenney-space-kit/hangar_roundA.glb" }
+  ]
+}
