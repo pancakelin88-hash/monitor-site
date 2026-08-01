@@ -6,7 +6,7 @@
     "license": "CC0 1.0"
   },
   "packs": [
-    {"id":"kenney-space-kit","models":10,"license":"CC0 1.0","root":"kenney-space-kit/"},
+    {"id":"kenney-space-kit","models":153,"license":"CC0 1.0","root":"kenney-space-kit/"},
     {"id":"kenney-space-station","models":97,"license":"CC0 1.0","root":"kenney-space-station/","index":"facility-index.json"}
   ],
   "models": [
@@ -20,6 +20,18 @@
     { "id": "craft_speederD", "role": "eclipse-interceptor", "file": "kenney-space-kit/craft_speederD.glb" },
     { "id": "hangar_largeA", "role": "launch-hangar", "file": "kenney-space-kit/hangar_largeA.glb" },
     { "id": "hangar_roundA", "role": "service-hangar", "file": "kenney-space-kit/hangar_roundA.glb" },
+    { "id": "hangar_largeB", "role": "carrier-hangar", "file": "kenney-space-kit/hangar_largeB.glb" },
+    { "id": "hangar_roundB", "role": "transform-hangar", "file": "kenney-space-kit/hangar_roundB.glb" },
+    { "id": "hangar_roundGlass", "role": "display-hangar", "file": "kenney-space-kit/hangar_roundGlass.glb" },
+    { "id": "hangar_smallA", "role": "repair-bay", "file": "kenney-space-kit/hangar_smallA.glb" },
+    { "id": "gate_complex", "role": "launch-gate", "file": "kenney-space-kit/gate_complex.glb" },
+    { "id": "machine_generatorLarge", "role": "reactor-service", "file": "kenney-space-kit/machine_generatorLarge.glb" },
+    { "id": "machine_barrelLarge", "role": "fuel-service", "file": "kenney-space-kit/machine_barrelLarge.glb" },
+    { "id": "satelliteDish_detailed", "role": "tracking-array", "file": "kenney-space-kit/satelliteDish_detailed.glb" },
+    { "id": "turret_double", "role": "defense-turret", "file": "kenney-space-kit/turret_double.glb" },
+    { "id": "rover", "role": "surface-repair", "file": "kenney-space-kit/rover.glb" },
+    { "id": "rocket_baseA", "role": "modular-rocket", "file": "kenney-space-kit/rocket_baseA.glb" },
+    { "id": "platform_large", "role": "flight-platform", "file": "kenney-space-kit/platform_large.glb" },
     { "id": "repair-console", "role": "repair-control", "file": "kenney-space-station/computer-system.glb" },
     { "id": "diagnostic-wall", "role": "diagnostic-display", "file": "kenney-space-station/display-wall-wide.glb" },
     { "id": "holo-diagnostics", "role": "holographic-diagnostics", "file": "kenney-space-station/table-display.glb" },

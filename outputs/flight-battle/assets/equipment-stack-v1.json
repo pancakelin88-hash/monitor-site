@@ -1,0 +1,40 @@
+{
+  "brand": "LinYH",
+  "version": "1.0.0",
+  "purpose": "可叠装外部装备、翼面、光圈、武器与核心的高清 PBR 运行时协议",
+  "atlases": {
+    "upgrade": "sprites/upgrade-effects-v3.png",
+    "combat": "sprites/combat-elements-v2.png",
+    "world": "sprites/world-elements-v2.png"
+  },
+  "slots": ["core", "inner-wing", "outer-wing", "shoulder", "weapon", "aperture", "drone", "trail"],
+  "components": [
+    {"id":"aether-inner-wing","slot":"inner-wing","atlas":"upgrade","cell":[0,0],"unlock":2},
+    {"id":"prism-split-wing","slot":"outer-wing","atlas":"upgrade","cell":[1,0],"unlock":4},
+    {"id":"void-siege-wing","slot":"outer-wing","atlas":"upgrade","cell":[2,0],"unlock":8},
+    {"id":"solar-mech-wing","slot":"outer-wing","atlas":"upgrade","cell":[3,0],"unlock":12},
+    {"id":"phase-aperture","slot":"aperture","atlas":"upgrade","cell":[0,1],"unlock":3},
+    {"id":"prism-aperture","slot":"aperture","atlas":"upgrade","cell":[1,1],"unlock":6},
+    {"id":"gravity-aperture","slot":"aperture","atlas":"upgrade","cell":[2,1],"unlock":9},
+    {"id":"solar-aperture","slot":"aperture","atlas":"upgrade","cell":[3,1],"unlock":13},
+    {"id":"rail-shoulder","slot":"shoulder","atlas":"upgrade","cell":[0,2],"unlock":2},
+    {"id":"ion-shoulder","slot":"shoulder","atlas":"upgrade","cell":[1,2],"unlock":5},
+    {"id":"void-shoulder","slot":"shoulder","atlas":"upgrade","cell":[2,2],"unlock":8},
+    {"id":"mech-shoulder","slot":"shoulder","atlas":"upgrade","cell":[3,2],"unlock":11},
+    {"id":"twin-rail-pod","slot":"weapon","atlas":"combat","cell":[0,3],"unlock":3},
+    {"id":"aegis-emitter","slot":"weapon","atlas":"combat","cell":[1,3],"unlock":6},
+    {"id":"mech-coupler","slot":"core","atlas":"combat","cell":[2,3],"unlock":9},
+    {"id":"singularity-coil","slot":"core","atlas":"combat","cell":[3,3],"unlock":12},
+    {"id":"missile-rack","slot":"drone","atlas":"world","cell":[0,3],"unlock":5},
+    {"id":"plasma-cannon","slot":"drone","atlas":"world","cell":[1,3],"unlock":8},
+    {"id":"combat-drone-bay","slot":"drone","atlas":"world","cell":[2,3],"unlock":11},
+    {"id":"overdrive-reactor","slot":"core","atlas":"world","cell":[3,3],"unlock":14}
+  ],
+  "stackRules": {
+    "maxVisibleLayers": 7,
+    "blend": {"metal":"source-over","emissive":"screen"},
+    "order": ["aperture", "outer-wing", "inner-wing", "core", "shoulder", "weapon", "drone"],
+    "performance": "atlas draw only; no per-layer blur; glow comes from cached sprites"
+  },
+  "transformStages": ["unlock", "aperture-open", "wing-split", "shoulder-rise", "weapon-lock", "core-ignite"]
+}

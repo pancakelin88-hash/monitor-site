@@ -8,3 +8,9 @@ variants under the same stable asset id and register each deployed file in
 Required metadata: scale/pivot, exporter version, license, source URL, and a
 preview in `../previews/`. Use `fallback: "procedural:<ship-id>"` while a model
 is still being authored.
+
+## Installed CC0 packs
+
+- `kenney-space-kit/`: 153 local GLB files; craft, hangars, gates, repair machinery, platforms, rockets, rovers, weapons and base modules.
+- `kenney-space-station/`: 97 local GLB files; consoles, airlocks, gantries, floors, walls, pipes, storage and interior props.
+- Curated runtime entries live in `model-index.json`; multi-model facility compositions live in `facility-index.json`.

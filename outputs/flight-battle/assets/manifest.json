@@ -395,6 +395,34 @@
       "mobileVariant": "models/facility-index.json"
     },
     {
+      "id": "kenney-space-kit-full-glb",
+      "version": "1.0.0",
+      "type": "spacecraft-and-base-model-pack",
+      "file": "models/kenney-space-kit/",
+      "license": "CC0 1.0",
+      "source": "https://kenney.nl/assets/space-kit",
+      "sha256": null,
+      "preview": "models/kenney-space-kit/hangar_roundGlass.glb",
+      "loadGroup": "models.space-kit",
+      "fallback": "procedural:flight-deck",
+      "mobileVariant": "models/kenney-space-kit/craft_racer.glb",
+      "files": 153
+    },
+    {
+      "id": "equipment-stack-v1",
+      "version": "1.0.0",
+      "type": "pbr-equipment-layer-catalog",
+      "file": "equipment-stack-v1.json",
+      "license": "LinYH generated original",
+      "source": "local-composition",
+      "sha256": null,
+      "preview": "sprites/upgrade-effects-v3.png",
+      "loadGroup": "combat.equipment",
+      "fallback": "sprites/module-parts-v1.svg",
+      "mobileVariant": "equipment-stack-v1.json",
+      "components": 20
+    },
+    {
       "id": "upgrade-effects-v3",
       "version": "3.0.0",
       "type": "pbr-upgrade-and-vfx-atlas",

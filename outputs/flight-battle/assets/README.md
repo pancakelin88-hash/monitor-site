@@ -21,6 +21,16 @@
 - `scenes/`：场景组合清单
 - `previews/`：素材库缩略图
 
+## 本地高清素材包
+
+- `sprites/combat-elements-v2.png`：玩家/敌方弹体与外挂装备 PBR 图集
+- `sprites/world-elements-v2.png`：战机、敌机、机场、维修站和技能装置 PBR 图集
+- `sprites/upgrade-effects-v3.png`：翼面、光圈、肩炮、核心和变形效果 PBR 图集
+- `equipment-stack-v1.json`：20 个可叠装组件、8 类挂点、最多 7 层的绘制顺序
+- `models/kenney-space-kit/`：153 个 CC0 GLB，覆盖战机、机库、维修设备、火箭、平台、炮塔和车辆
+- `models/kenney-space-station/`：97 个 CC0 GLB，覆盖气闸、控制台、龙门架、管线和空间站结构
+- `expansion-index.json`：未来战机、敌方阵营、技能、场景和变形流程
+
 新增文件时，先在对应目录登记来源和授权，再计算
 `shasum -a 256 <file>` 并把结果写入索引。完整的导出、加载和发布门槛见
 [`../WORKFLOW.md`](../WORKFLOW.md)。
