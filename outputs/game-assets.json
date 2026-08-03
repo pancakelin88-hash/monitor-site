@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "games": [
+    {
+      "id": "flight-battle",
+      "name": "LinYH / STARLANCE",
+      "path": "flight-battle/",
+      "manifest": "flight-battle/assets/manifest.json",
+      "libraryRoute": "flight-battle/#asset-screen",
+      "categories": [
+        "aircraft",
+        "enemy",
+        "weapons",
+        "equipment",
+        "skills",
+        "backgrounds",
+        "scenes",
+        "vfx",
+        "audio",
+        "models",
+        "data"
+      ]
+    }
+  ]
+}
