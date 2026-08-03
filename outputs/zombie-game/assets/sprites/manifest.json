@@ -1,0 +1,541 @@
+{
+  "total": 254,
+  "groups": {
+    "soldier": [
+      {
+        "src": "/assets/sprites/soldier-01.png",
+        "name": "突击队长"
+      },
+      {
+        "src": "/assets/sprites/soldier-02.png",
+        "name": "沙漠游骑兵"
+      },
+      {
+        "src": "/assets/sprites/soldier-03.png",
+        "name": "暗夜特勤"
+      },
+      {
+        "src": "/assets/sprites/soldier-04.png",
+        "name": "赤焰先锋"
+      },
+      {
+        "src": "/assets/sprites/soldier-05.png",
+        "name": "极地卫士"
+      },
+      {
+        "src": "/assets/sprites/soldier-06.png",
+        "name": "苍蓝猎手"
+      },
+      {
+        "src": "/assets/sprites/soldier-07.png",
+        "name": "战地医师·原型"
+      },
+      {
+        "src": "/assets/sprites/soldier-08.png",
+        "name": "战地医师·强化型"
+      },
+      {
+        "src": "/assets/sprites/soldier-09.png",
+        "name": "战地医师·精英型"
+      },
+      {
+        "src": "/assets/sprites/soldier-10.png",
+        "name": "重装机枪手·原型"
+      },
+      {
+        "src": "/assets/sprites/soldier-11.png",
+        "name": "重装机枪手·强化型"
+      },
+      {
+        "src": "/assets/sprites/soldier-12.png",
+        "name": "重装机枪手·精英型"
+      },
+      {
+        "src": "/assets/sprites/soldier-13.png",
+        "name": "暗影侦察兵·原型"
+      },
+      {
+        "src": "/assets/sprites/soldier-14.png",
+        "name": "暗影侦察兵·强化型"
+      },
+      {
+        "src": "/assets/sprites/soldier-15.png",
+        "name": "暗影侦察兵·精英型"
+      },
+      {
+        "src": "/assets/sprites/soldier-16.png",
+        "name": "战术工程师·原型"
+      },
+      {
+        "src": "/assets/sprites/soldier-17.png",
+        "name": "战术工程师·强化型"
+      },
+      {
+        "src": "/assets/sprites/soldier-18.png",
+        "name": "战术工程师·精英型"
+      }
+    ],
+    "walker": [
+      {
+        "src": "/assets/sprites/walker-01.png",
+        "name": "游荡者"
+      },
+      {
+        "src": "/assets/sprites/walker-02.png",
+        "name": "腐化矿工"
+      },
+      {
+        "src": "/assets/sprites/walker-03.png",
+        "name": "夜行感染者"
+      },
+      {
+        "src": "/assets/sprites/walker-04.png",
+        "name": "裂口者"
+      },
+      {
+        "src": "/assets/sprites/walker-05.png",
+        "name": "灰疫行尸"
+      },
+      {
+        "src": "/assets/sprites/walker-06.png",
+        "name": "沼泽感染者"
+      },
+      {
+        "src": "/assets/sprites/walker-07.png",
+        "name": "焦土亡者"
+      },
+      {
+        "src": "/assets/sprites/walker-08.png",
+        "name": "寒霜行尸"
+      },
+      {
+        "src": "/assets/sprites/walker-09.png",
+        "name": "防化感染者·原型"
+      },
+      {
+        "src": "/assets/sprites/walker-10.png",
+        "name": "防化感染者·强化型"
+      },
+      {
+        "src": "/assets/sprites/walker-11.png",
+        "name": "防化感染者·精英型"
+      },
+      {
+        "src": "/assets/sprites/walker-12.png",
+        "name": "防暴行尸·原型"
+      },
+      {
+        "src": "/assets/sprites/walker-13.png",
+        "name": "防暴行尸·强化型"
+      },
+      {
+        "src": "/assets/sprites/walker-14.png",
+        "name": "防暴行尸·精英型"
+      },
+      {
+        "src": "/assets/sprites/walker-15.png",
+        "name": "爬行异变体·原型"
+      },
+      {
+        "src": "/assets/sprites/walker-16.png",
+        "name": "爬行异变体·强化型"
+      },
+      {
+        "src": "/assets/sprites/walker-17.png",
+        "name": "爬行异变体·精英型"
+      },
+      {
+        "src": "/assets/sprites/walker-18.png",
+        "name": "变异猎犬·原型"
+      },
+      {
+        "src": "/assets/sprites/walker-19.png",
+        "name": "变异猎犬·强化型"
+      },
+      {
+        "src": "/assets/sprites/walker-20.png",
+        "name": "变异猎犬·精英型"
+      }
+    ],
+    "brute": [
+      {
+        "src": "/assets/sprites/brute-01.png",
+        "name": "装甲暴君"
+      },
+      {
+        "src": "/assets/sprites/brute-02.png",
+        "name": "钢骨巨尸"
+      },
+      {
+        "src": "/assets/sprites/brute-03.png",
+        "name": "熔炉屠夫"
+      },
+      {
+        "src": "/assets/sprites/brute-04.png",
+        "name": "荒原重锤"
+      },
+      {
+        "src": "/assets/sprites/brute-05.png",
+        "name": "寒铁巨兽"
+      },
+      {
+        "src": "/assets/sprites/brute-06.png",
+        "name": "黑甲领主"
+      },
+      {
+        "src": "/assets/sprites/brute-07.png",
+        "name": "毒囊暴君·原型"
+      },
+      {
+        "src": "/assets/sprites/brute-08.png",
+        "name": "毒囊暴君·强化型"
+      },
+      {
+        "src": "/assets/sprites/brute-09.png",
+        "name": "毒囊暴君·精英型"
+      },
+      {
+        "src": "/assets/sprites/brute-10.png",
+        "name": "熔甲巨尸·原型"
+      },
+      {
+        "src": "/assets/sprites/brute-11.png",
+        "name": "熔甲巨尸·强化型"
+      },
+      {
+        "src": "/assets/sprites/brute-12.png",
+        "name": "熔甲巨尸·精英型"
+      }
+    ],
+    "rifle": [
+      {
+        "src": "/assets/sprites/rifle-01.png",
+        "name": "制式步枪"
+      },
+      {
+        "src": "/assets/sprites/rifle-02.png",
+        "name": "高压突击枪"
+      },
+      {
+        "src": "/assets/sprites/rifle-03.png",
+        "name": "穿甲卡宾枪"
+      },
+      {
+        "src": "/assets/sprites/rifle-04.png",
+        "name": "磁轨步枪"
+      },
+      {
+        "src": "/assets/sprites/rifle-05.png",
+        "name": "飓风机枪"
+      },
+      {
+        "src": "/assets/sprites/rifle-06.png",
+        "name": "战术霰弹枪·原型"
+      },
+      {
+        "src": "/assets/sprites/rifle-07.png",
+        "name": "战术霰弹枪·强化型"
+      },
+      {
+        "src": "/assets/sprites/rifle-08.png",
+        "name": "战术霰弹枪·精英型"
+      },
+      {
+        "src": "/assets/sprites/rifle-09.png",
+        "name": "双管自动炮塔·原型"
+      },
+      {
+        "src": "/assets/sprites/rifle-10.png",
+        "name": "双管自动炮塔·强化型"
+      },
+      {
+        "src": "/assets/sprites/rifle-11.png",
+        "name": "双管自动炮塔·精英型"
+      }
+    ],
+    "crate": [
+      {
+        "src": "/assets/sprites/crate-01.png",
+        "name": "弹药补给"
+      },
+      {
+        "src": "/assets/sprites/crate-02.png",
+        "name": "火力组件"
+      },
+      {
+        "src": "/assets/sprites/crate-03.png",
+        "name": "战术物资"
+      },
+      {
+        "src": "/assets/sprites/crate-04.png",
+        "name": "医疗补给"
+      },
+      {
+        "src": "/assets/sprites/crate-05.png",
+        "name": "稀有装备箱"
+      }
+    ],
+    "core": [
+      {
+        "src": "/assets/sprites/core-01.png",
+        "name": "急速核心"
+      },
+      {
+        "src": "/assets/sprites/core-02.png",
+        "name": "散射核心"
+      },
+      {
+        "src": "/assets/sprites/core-03.png",
+        "name": "穿透核心"
+      },
+      {
+        "src": "/assets/sprites/core-04.png",
+        "name": "过载核心"
+      },
+      {
+        "src": "/assets/sprites/core-05.png",
+        "name": "冰冻核心"
+      },
+      {
+        "src": "/assets/sprites/core-06.png",
+        "name": "电磁核心"
+      }
+    ],
+    "props": [
+      {
+        "src": "/assets/sprites/prop-01.png",
+        "name": "混凝土路障·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-02.png",
+        "name": "混凝土路障·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-03.png",
+        "name": "混凝土路障·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-04.png",
+        "name": "锈蚀油桶·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-05.png",
+        "name": "锈蚀油桶·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-06.png",
+        "name": "锈蚀油桶·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-07.png",
+        "name": "应急信号棒·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-08.png",
+        "name": "应急信号棒·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-09.png",
+        "name": "应急信号棒·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-10.png",
+        "name": "铁丝围栏·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-11.png",
+        "name": "铁丝围栏·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-12.png",
+        "name": "铁丝围栏·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-13.png",
+        "name": "弹药箱·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-14.png",
+        "name": "弹药箱·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-15.png",
+        "name": "弹药箱·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-16.png",
+        "name": "医疗箱·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-17.png",
+        "name": "医疗箱·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-18.png",
+        "name": "医疗箱·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-19.png",
+        "name": "便携探照灯·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-20.png",
+        "name": "便携探照灯·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-21.png",
+        "name": "便携探照灯·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-22.png",
+        "name": "破损路牌·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-23.png",
+        "name": "破损路牌·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-24.png",
+        "name": "破损路牌·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-25.png",
+        "name": "废弃轿车·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-26.png",
+        "name": "废弃轿车·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-27.png",
+        "name": "废弃轿车·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-28.png",
+        "name": "钢筋残骸·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-29.png",
+        "name": "钢筋残骸·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-30.png",
+        "name": "钢筋残骸·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-31.png",
+        "name": "沙袋堆·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-32.png",
+        "name": "沙袋堆·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-33.png",
+        "name": "沙袋堆·警戒"
+      },
+      {
+        "src": "/assets/sprites/prop-34.png",
+        "name": "警戒信标·标准"
+      },
+      {
+        "src": "/assets/sprites/prop-35.png",
+        "name": "警戒信标·锈蚀"
+      },
+      {
+        "src": "/assets/sprites/prop-36.png",
+        "name": "警戒信标·警戒"
+      }
+    ],
+    "vfx": [
+      { "src": "/assets/sprites/vfx-01-1.png", "name": "枪口火花·轻" },
+      { "src": "/assets/sprites/vfx-01-2.png", "name": "枪口火花·标准" },
+      { "src": "/assets/sprites/vfx-01-3.png", "name": "枪口火花·强力" },
+      { "src": "/assets/sprites/vfx-02-1.png", "name": "爆炸·轻" },
+      { "src": "/assets/sprites/vfx-02-2.png", "name": "爆炸·标准" },
+      { "src": "/assets/sprites/vfx-02-3.png", "name": "爆炸·强力" },
+      { "src": "/assets/sprites/vfx-03-1.png", "name": "烟雾·轻" },
+      { "src": "/assets/sprites/vfx-03-2.png", "name": "烟雾·标准" },
+      { "src": "/assets/sprites/vfx-03-3.png", "name": "烟雾·强力" },
+      { "src": "/assets/sprites/vfx-04-1.png", "name": "冲击波·轻" },
+      { "src": "/assets/sprites/vfx-04-2.png", "name": "冲击波·标准" },
+      { "src": "/assets/sprites/vfx-04-3.png", "name": "冲击波·强力" },
+      { "src": "/assets/sprites/vfx-05-1.png", "name": "毒雾·轻" },
+      { "src": "/assets/sprites/vfx-05-2.png", "name": "毒雾·标准" },
+      { "src": "/assets/sprites/vfx-05-3.png", "name": "毒雾·强力" },
+      { "src": "/assets/sprites/vfx-06-1.png", "name": "冰冻碎片·轻" },
+      { "src": "/assets/sprites/vfx-06-2.png", "name": "冰冻碎片·标准" },
+      { "src": "/assets/sprites/vfx-06-3.png", "name": "冰冻碎片·强力" },
+      { "src": "/assets/sprites/vfx-07-1.png", "name": "火焰·轻" },
+      { "src": "/assets/sprites/vfx-07-2.png", "name": "火焰·标准" },
+      { "src": "/assets/sprites/vfx-07-3.png", "name": "火焰·强力" },
+      { "src": "/assets/sprites/vfx-08-1.png", "name": "电弧·轻" },
+      { "src": "/assets/sprites/vfx-08-2.png", "name": "电弧·标准" },
+      { "src": "/assets/sprites/vfx-08-3.png", "name": "电弧·强力" },
+      { "src": "/assets/sprites/vfx-09-1.png", "name": "空投箱·轻" },
+      { "src": "/assets/sprites/vfx-09-2.png", "name": "空投箱·标准" },
+      { "src": "/assets/sprites/vfx-09-3.png", "name": "空投箱·强化" },
+      { "src": "/assets/sprites/vfx-10-1.png", "name": "无人机·轻" },
+      { "src": "/assets/sprites/vfx-10-2.png", "name": "无人机·标准" },
+      { "src": "/assets/sprites/vfx-10-3.png", "name": "无人机·强化" },
+      { "src": "/assets/sprites/vfx-11-1.png", "name": "侦察无人机·轻" },
+      { "src": "/assets/sprites/vfx-11-2.png", "name": "侦察无人机·标准" },
+      { "src": "/assets/sprites/vfx-11-3.png", "name": "侦察无人机·强化" },
+      { "src": "/assets/sprites/vfx-12-1.png", "name": "支援信标·轻" },
+      { "src": "/assets/sprites/vfx-12-2.png", "name": "支援信标·标准" },
+      { "src": "/assets/sprites/vfx-12-3.png", "name": "支援信标·强化" }
+    ],
+    "bonus": [
+      { "src": "/assets/sprites/bonus-01-1.png", "name": "变异感染者·轻" }, { "src": "/assets/sprites/bonus-01-2.png", "name": "变异感染者·标准" }, { "src": "/assets/sprites/bonus-01-3.png", "name": "变异感染者·强化" },
+      { "src": "/assets/sprites/bonus-02-1.png", "name": "防暴感染者·轻" }, { "src": "/assets/sprites/bonus-02-2.png", "name": "防暴感染者·标准" }, { "src": "/assets/sprites/bonus-02-3.png", "name": "防暴感染者·强化" },
+      { "src": "/assets/sprites/bonus-03-1.png", "name": "爬行感染者·轻" }, { "src": "/assets/sprites/bonus-03-2.png", "name": "爬行感染者·标准" }, { "src": "/assets/sprites/bonus-03-3.png", "name": "爬行感染者·强化" },
+      { "src": "/assets/sprites/bonus-04-1.png", "name": "飞行感染者·轻" }, { "src": "/assets/sprites/bonus-04-2.png", "name": "飞行感染者·标准" }, { "src": "/assets/sprites/bonus-04-3.png", "name": "飞行感染者·强化" },
+      { "src": "/assets/sprites/bonus-05-1.png", "name": "酸液史莱姆·轻" }, { "src": "/assets/sprites/bonus-05-2.png", "name": "酸液史莱姆·标准" }, { "src": "/assets/sprites/bonus-05-3.png", "name": "酸液史莱姆·强化" },
+      { "src": "/assets/sprites/bonus-06-1.png", "name": "晶刺巨兽·轻" }, { "src": "/assets/sprites/bonus-06-2.png", "name": "晶刺巨兽·标准" }, { "src": "/assets/sprites/bonus-06-3.png", "name": "晶刺巨兽·强化" },
+      { "src": "/assets/sprites/bonus-07-1.png", "name": "医疗包·轻" }, { "src": "/assets/sprites/bonus-07-2.png", "name": "医疗包·标准" }, { "src": "/assets/sprites/bonus-07-3.png", "name": "医疗包·强化" },
+      { "src": "/assets/sprites/bonus-08-1.png", "name": "弹药箱·轻" }, { "src": "/assets/sprites/bonus-08-2.png", "name": "弹药箱·标准" }, { "src": "/assets/sprites/bonus-08-3.png", "name": "弹药箱·强化" },
+      { "src": "/assets/sprites/bonus-09-1.png", "name": "能量护盾·轻" }, { "src": "/assets/sprites/bonus-09-2.png", "name": "能量护盾·标准" }, { "src": "/assets/sprites/bonus-09-3.png", "name": "能量护盾·强化" },
+      { "src": "/assets/sprites/bonus-10-1.png", "name": "加速强化·轻" }, { "src": "/assets/sprites/bonus-10-2.png", "name": "加速强化·标准" }, { "src": "/assets/sprites/bonus-10-3.png", "name": "加速强化·强化" },
+      { "src": "/assets/sprites/bonus-11-1.png", "name": "能量核心·轻" }, { "src": "/assets/sprites/bonus-11-2.png", "name": "能量核心·标准" }, { "src": "/assets/sprites/bonus-11-3.png", "name": "能量核心·强化" },
+      { "src": "/assets/sprites/bonus-12-1.png", "name": "战利品徽章·轻" }, { "src": "/assets/sprites/bonus-12-2.png", "name": "战利品徽章·标准" }, { "src": "/assets/sprites/bonus-12-3.png", "name": "战利品徽章·强化" }
+    ],
+    "gear": [
+      { "src": "/assets/sprites/gear-01-1.png", "name": "战术手枪·轻" }, { "src": "/assets/sprites/gear-01-2.png", "name": "战术手枪·标准" }, { "src": "/assets/sprites/gear-01-3.png", "name": "战术手枪·强化" },
+      { "src": "/assets/sprites/gear-02-1.png", "name": "冲锋枪·轻" }, { "src": "/assets/sprites/gear-02-2.png", "name": "冲锋枪·标准" }, { "src": "/assets/sprites/gear-02-3.png", "name": "冲锋枪·强化" },
+      { "src": "/assets/sprites/gear-03-1.png", "name": "战术霰弹枪·轻" }, { "src": "/assets/sprites/gear-03-2.png", "name": "战术霰弹枪·标准" }, { "src": "/assets/sprites/gear-03-3.png", "name": "战术霰弹枪·强化" },
+      { "src": "/assets/sprites/gear-04-1.png", "name": "突击步枪·轻" }, { "src": "/assets/sprites/gear-04-2.png", "name": "突击步枪·标准" }, { "src": "/assets/sprites/gear-04-3.png", "name": "突击步枪·强化" },
+      { "src": "/assets/sprites/gear-05-1.png", "name": "狙击步枪·轻" }, { "src": "/assets/sprites/gear-05-2.png", "name": "狙击步枪·标准" }, { "src": "/assets/sprites/gear-05-3.png", "name": "狙击步枪·强化" },
+      { "src": "/assets/sprites/gear-06-1.png", "name": "磁轨炮·轻" }, { "src": "/assets/sprites/gear-06-2.png", "name": "磁轨炮·标准" }, { "src": "/assets/sprites/gear-06-3.png", "name": "磁轨炮·强化" },
+      { "src": "/assets/sprites/gear-07-1.png", "name": "火箭筒·轻" }, { "src": "/assets/sprites/gear-07-2.png", "name": "火箭筒·标准" }, { "src": "/assets/sprites/gear-07-3.png", "name": "火箭筒·强化" },
+      { "src": "/assets/sprites/gear-08-1.png", "name": "等离子炮·轻" }, { "src": "/assets/sprites/gear-08-2.png", "name": "等离子炮·标准" }, { "src": "/assets/sprites/gear-08-3.png", "name": "等离子炮·强化" },
+      { "src": "/assets/sprites/gear-09-1.png", "name": "破片手雷·轻" }, { "src": "/assets/sprites/gear-09-2.png", "name": "破片手雷·标准" }, { "src": "/assets/sprites/gear-09-3.png", "name": "破片手雷·强化" },
+      { "src": "/assets/sprites/gear-10-1.png", "name": "感应地雷·轻" }, { "src": "/assets/sprites/gear-10-2.png", "name": "感应地雷·标准" }, { "src": "/assets/sprites/gear-10-3.png", "name": "感应地雷·强化" },
+      { "src": "/assets/sprites/gear-11-1.png", "name": "自动炮塔·轻" }, { "src": "/assets/sprites/gear-11-2.png", "name": "自动炮塔·标准" }, { "src": "/assets/sprites/gear-11-3.png", "name": "自动炮塔·强化" },
+      { "src": "/assets/sprites/gear-12-1.png", "name": "医疗无人机·轻" }, { "src": "/assets/sprites/gear-12-2.png", "name": "医疗无人机·标准" }, { "src": "/assets/sprites/gear-12-3.png", "name": "医疗无人机·强化" }
+    ],
+    "env": [
+      { "src": "/assets/sprites/env-01-1.png", "name": "混凝土路障·轻" }, { "src": "/assets/sprites/env-01-2.png", "name": "混凝土路障·标准" }, { "src": "/assets/sprites/env-01-3.png", "name": "混凝土路障·强化" },
+      { "src": "/assets/sprites/env-02-1.png", "name": "装甲检查站·轻" }, { "src": "/assets/sprites/env-02-2.png", "name": "装甲检查站·标准" }, { "src": "/assets/sprites/env-02-3.png", "name": "装甲检查站·强化" },
+      { "src": "/assets/sprites/env-03-1.png", "name": "损坏路灯·轻" }, { "src": "/assets/sprites/env-03-2.png", "name": "损坏路灯·标准" }, { "src": "/assets/sprites/env-03-3.png", "name": "损坏路灯·强化" },
+      { "src": "/assets/sprites/env-04-1.png", "name": "交通锥·轻" }, { "src": "/assets/sprites/env-04-2.png", "name": "交通锥·标准" }, { "src": "/assets/sprites/env-04-3.png", "name": "交通锥·强化" },
+      { "src": "/assets/sprites/env-05-1.png", "name": "生化警示牌·轻" }, { "src": "/assets/sprites/env-05-2.png", "name": "生化警示牌·标准" }, { "src": "/assets/sprites/env-05-3.png", "name": "生化警示牌·强化" },
+      { "src": "/assets/sprites/env-06-1.png", "name": "便携电台塔·轻" }, { "src": "/assets/sprites/env-06-2.png", "name": "便携电台塔·标准" }, { "src": "/assets/sprites/env-06-3.png", "name": "便携电台塔·强化" },
+      { "src": "/assets/sprites/env-07-1.png", "name": "沙袋掩体·轻" }, { "src": "/assets/sprites/env-07-2.png", "name": "沙袋掩体·标准" }, { "src": "/assets/sprites/env-07-3.png", "name": "沙袋掩体·强化" },
+      { "src": "/assets/sprites/env-08-1.png", "name": "铁丝网闸门·轻" }, { "src": "/assets/sprites/env-08-2.png", "name": "铁丝网闸门·标准" }, { "src": "/assets/sprites/env-08-3.png", "name": "铁丝网闸门·强化" },
+      { "src": "/assets/sprites/env-09-1.png", "name": "废弃摩托·轻" }, { "src": "/assets/sprites/env-09-2.png", "name": "废弃摩托·标准" }, { "src": "/assets/sprites/env-09-3.png", "name": "废弃摩托·强化" },
+      { "src": "/assets/sprites/env-10-1.png", "name": "翻覆军用车·轻" }, { "src": "/assets/sprites/env-10-2.png", "name": "翻覆军用车·标准" }, { "src": "/assets/sprites/env-10-3.png", "name": "翻覆军用车·强化" },
+      { "src": "/assets/sprites/env-11-1.png", "name": "燃烧残骸·轻" }, { "src": "/assets/sprites/env-11-2.png", "name": "燃烧残骸·标准" }, { "src": "/assets/sprites/env-11-3.png", "name": "燃烧残骸·强化" },
+      { "src": "/assets/sprites/env-12-1.png", "name": "撤离信标·轻" }, { "src": "/assets/sprites/env-12-2.png", "name": "撤离信标·标准" }, { "src": "/assets/sprites/env-12-3.png", "name": "撤离信标·强化" }
+    ],
+    "pbrAtlas": [
+      {
+        "src": "/assets/sprites/linyh-pbr-atlas-v3.png",
+        "name": "LinYH PBR 战机与强化组件图集·16格"
+      },
+      {
+        "src": "/assets/sprites/linyh-hybrid-atlas-v4.png",
+        "name": "LinYH Hybrid PBR 双游戏共享图集·16格"
+      }
+    ]
+  }
+}

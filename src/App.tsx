@@ -250,7 +250,10 @@ function App() {
         </nav>
         <div className="status-cluster">
           <a className="game-launch" href="/flight-battle/" target="_blank" rel="noreferrer">
-            <Gamepad2 size={14} /> <span>PHASE STRIKE</span>
+            <Gamepad2 size={14} /> <span>飞行大战</span>
+          </a>
+          <a className="game-launch zombie" href="/zombie-game/" target="_blank" rel="noreferrer">
+            <Gamepad2 size={14} /> <span>尸潮突围</span>
           </a>
           <span className={`live-badge ${dataMode}`}>
             <span className="status-dot" />
@@ -274,6 +277,23 @@ function App() {
         <span><i /> Vercel Edge</span>
         <span className="signal-time">AP-NORTHEAST · {lastUpdated.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', second: '2-digit' })}</span>
       </div>
+
+      <section className="game-entry-bar" aria-label="LinYH 游戏入口">
+        <div>
+          <span>LINYH GAME CENTER</span>
+          <strong>选择游戏，立即进入</strong>
+        </div>
+        <a href="/flight-battle/">
+          <small>01 · 3D 空战射击</small>
+          <b>进入飞行大战</b>
+          <ChevronRight size={18} />
+        </a>
+        <a className="zombie" href="/zombie-game/">
+          <small>02 · 自动射击生存</small>
+          <b>进入尸潮突围</b>
+          <ChevronRight size={18} />
+        </a>
+      </section>
 
       {page === 'overview' && (
         <main>

@@ -1,0 +1,17 @@
+{
+  "brand": "LinYH",
+  "version": "4.0.0",
+  "file": "linyh-hybrid-atlas-v4.png",
+  "grid": { "columns": 4, "rows": 4, "cellPixels": 313.5 },
+  "cells": {
+    "flightPlayer": ["stealth-interceptor", "cobalt-twinwing", "solar-raptor", "heavy-gunship"],
+    "flightEnemy": ["violet-scout", "red-striker", "amber-bomber", "carrier-drone"],
+    "flightEquipment": ["energy-wing", "shoulder-rail", "drone-pod", "reactor-heart"],
+    "hordeLoadout": ["plasma-rifle", "void-core", "supply-crate", "elite-armor"]
+  },
+  "runtime": {
+    "blend": "screen",
+    "fallback": "linyh-pbr-atlas-v3.png",
+    "source": "ImageGen high-definition PBR atlas, chroma-key cleaned RGBA"
+  }
+}
