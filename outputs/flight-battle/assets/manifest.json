@@ -452,6 +452,21 @@
       "mobileVariant": "sprites/upgrade-effects-v3.png",
       "cells": {"evolutionWings":4,"mechanicalHalos":4,"weaponMounts":4,"activationEffects":4},
       "materials": ["PBR-metal","emissive-glass","machined-bevel","restrained-bloom"]
+    },
+    {
+      "id": "linyh-hybrid-atlas-v4",
+      "version": "4.0.0",
+      "type": "shared-pbr-atlas-flight-and-horde",
+      "file": "sprites/linyh-hybrid-atlas-v4.png",
+      "license": "LinYH generated original",
+      "source": "OpenAI ImageGen",
+      "sha256": null,
+      "preview": "sprites/linyh-hybrid-atlas-v4.png",
+      "loadGroup": "sprites.shared",
+      "fallback": "sprites/linyh-pbr-atlas-v3.png",
+      "mobileVariant": "sprites/linyh-hybrid-atlas-v4.png",
+      "cells": {"flightPlayer":4,"flightEnemy":4,"flightEquipment":4,"hordeLoadout":4},
+      "catalog": "sprites/hybrid-atlas-v4.json"
     }
   ],
   "assetDirectories": [
