@@ -423,6 +423,22 @@
       "components": 20
     },
     {
+      "id": "linyh-pbr-atlas-v3",
+      "version": "3.0.0",
+      "type": "pbr-raster-aircraft-and-equipment-atlas",
+      "file": "sprites/linyh-pbr-atlas-v3.png",
+      "license": "LinYH generated original",
+      "source": "OpenAI ImageGen",
+      "sha256": null,
+      "preview": "sprites/linyh-pbr-atlas-v3.png",
+      "loadGroup": "sprites.expansion",
+      "fallback": "sprites/upgrade-effects-v3.png",
+      "mobileVariant": "sprites/linyh-pbr-atlas-v3.png",
+      "cells": {"playerAircraft": 4, "enemyAircraft": 4, "equipment": 4, "transformParts": 4},
+      "materials": ["machined-metal", "clearcoat-glass", "emissive-core", "restrained-bloom"],
+      "catalog": "sprites/pbr-atlas-v3.json"
+    },
+    {
       "id": "upgrade-effects-v3",
       "version": "3.0.0",
       "type": "pbr-upgrade-and-vfx-atlas",

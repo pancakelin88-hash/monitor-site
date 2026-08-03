@@ -1,0 +1,15 @@
+{
+  "brand": "LinYH",
+  "version": "3.0.0",
+  "file": "linyh-pbr-atlas-v3.png",
+  "sourceFile": "linyh-pbr-atlas-v3-source.png",
+  "grid": {"columns": 4, "rows": 4, "cellPixels": 308},
+  "cells": {
+    "playerAircraft": ["aether-raptor", "atlas-gunship", "vanta-delta", "seraph-mech"],
+    "enemyAircraft": ["violet-scout", "magenta-striker", "chrome-bomber", "dread-carrier"],
+    "equipment": ["split-wing", "shoulder-rail", "drone-core", "reactor-heart"],
+    "transformParts": ["aperture-ring", "wing-lock", "armor-shoulder", "weapon-clamp"]
+  },
+  "materials": ["machined-metal", "clearcoat-glass", "emissive-core", "restrained-bloom"],
+  "runtime": {"fallback": "sprites/upgrade-effects-v3.png", "blend": "source-over", "mobileScale": 0.72}
+}

@@ -26,6 +26,7 @@
 - `sprites/combat-elements-v2.png`：玩家/敌方弹体与外挂装备 PBR 图集
 - `sprites/world-elements-v2.png`：战机、敌机、机场、维修站和技能装置 PBR 图集
 - `sprites/upgrade-effects-v3.png`：翼面、光圈、肩炮、核心和变形效果 PBR 图集
+- `sprites/linyh-pbr-atlas-v3.png`：新增 4 架玩家机、4 架敌机、4 个外挂和 4 个变形部件高清图集
 - `equipment-stack-v1.json`：20 个可叠装组件、8 类挂点、最多 7 层的绘制顺序
 - `models/kenney-space-kit/`：153 个 CC0 GLB，覆盖战机、机库、维修设备、火箭、平台、炮塔和车辆
 - `models/kenney-space-station/`：97 个 CC0 GLB，覆盖气闸、控制台、龙门架、管线和空间站结构
